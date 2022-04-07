@@ -49,10 +49,16 @@ body {
 
 .country-info__flag {
   width: 30px;
+  margin-right: 10px;
 }
 
 .country-info__list {
   list-style: none;
+  padding: 0;
+}
+
+.country-info__list-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .country-info__list-item-name {
